@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="admin.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">Products Admin Page</div>
+    </header>
+    <div class="container">
+      <div class="adding"><button id="add">Add</button></div>
+
+      <div id="adddatamodal">
+        <div id="incontainera">
+          <form id="addproductform">
+            <div>
+              <label>Description :</label>
+              <div><input type="text" id="description" style="height: 50px" id="body"/></div>
+            </div>
+            <div>
+              <label>IMG :</label>
+              <div><input type="text" id='imageurl' /></div>
+            </div>
+            <div>
+              <label>Name :</label>
+              <div><input type="text" id="name" /></div>
+            </div>
+            <div>
+              <label>Price :</label>
+              <div><input type="text" id="price"/></div>
+            </div>
+            <div>
+              <button id="addproduct">AddProduct</button>
+             <button id="cancle">Cancle</button>
+            </div>
+            
+          </form>
+        </div>
+      </div>
+      <div id="editmodal" class="modal">
+        
+        <div class="modalcontent">
+            <div class="wrapper">
+                <form style="border:1px solid red;">
+                  <div>
+                    <label>Description :</label>
+                    <div><input type="text" id="udescription" style="height: 50px" id="body"/></div>
+                  </div>
+                  <div>
+                    <label>IMG :</label>
+                    <div><input type="text" id='uimageurl' /></div>
+                  </div>
+                  <div>
+                    <label>Name :</label>
+                    <div><input type="text" id="uname" /></div>
+                  </div>
+                  <div>
+                    <label>Price :</label>
+                    <div><input type="text" id="uprice"/></div>
+                  </div>
+                  <div>
+                    <button id="editproduct">EditProduct</button>
+                   <button id="close">close</button>
+                  </div>
+                </form>
+            </div>
+        </div>
+       </div>
+      <div class="tsection">
+        <table id="tablesection">
+          <thead>
+            <tr>
+              <th>id</th>
+              <th>Description</th>
+              <th>IMG</th>
+              <!-- <th>Price</th> -->
+              <th>Name</th>
+              <th>Price</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="bodysection">
+            <tr>
+              <th>1</th>
+              <th>2</th>
+              <th>3</th>
+              <th>4</th>
+              <th>5</th>
+              <th>6</th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+  <script src="admin.js"></script>
+  <!-- <script src="admin1.js"></script> -->
+</html>

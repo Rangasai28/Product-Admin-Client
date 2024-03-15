@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(157, 188, 132);
+    padding-bottom:5px;
+}
+.logo{
+    padding:10px;
+    font-size: larger;
+}
+
+.container{
+   width:90%;
+   margin: 50px auto;
+  
+}
+.adding{
+    text-align: end;
+}
+#tablesection{
+    width:90%;
+    margin:auto;
+    padding-top:20px;
+}
+thead{
+    background-color:rgb(205, 168, 185);
+}
+
+th,td{
+    text-align: left;
+    font-size:19px;
+    padding:8px;
+}
+td{
+    background-color:darksalmon;
+}
+button{
+    background-color:rgb(164, 45, 49);
+    color:white;
+    padding:5px 10px;
+    margin:5px;
+}
+
+#adddatamodal{
+    background-color: cadetblue;
+    text-align: start;
+    width:50%;
+    margin:auto;
+    display: none;
+    
+}
+#incontainera{
+    height:285px;
+}
+#addproductform{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height:270px;
+  margin:11px 30px;
+}
+
+input,textarea{
+    background-color: gainsboro;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50%;
+}
+.modal{
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    background-color:blanchedalmond;
+    display: none;
+}
+.modalcontent{
+    background-color: cadetblue;
+    width:60%;
+    margin:4% auto;
+}
+.wrapper{
+    padding:10px;
+}
+a.close{
+    position:absolute;
+    right:30px;
+    top:30px;
+    color:rgb(226, 14, 14);
+    text-decoration: none;
+    font-weight:bolder;
+}
